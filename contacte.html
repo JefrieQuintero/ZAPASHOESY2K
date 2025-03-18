@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAPASHOESY2K-CONTACTE</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            grid-template-rows: auto 1fr;
+            grid-template-columns: 1fr;
+            height: 300px;
+            background-color: #b0e0e6; /* Fons diferent */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            height: 100%;
+        }
+
+        .sidebar {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+        }
+
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="contacte.html" style="color: white;">CONTACTE</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="jefrieeeequinterooooo.html">Inici</a>
+        <a href="rebaixes.html">Rebaixes</a>
+        <a href="ultima-setmana.html">Ultima setmana</a>
+    </nav>
+        <div class="content">
+            <h1>CONTACTE</h1>
+            <p>Aquesta secció parla sobre com puguis contactar amb nosaltres d'un manera ràpida i eficaz</p>
+            <img src="data:image/png;base64,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" alt="CONTACTE">
+        </div>
+    </div>
+	
+</body>
+</html>
